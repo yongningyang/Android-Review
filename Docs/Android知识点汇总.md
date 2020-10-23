@@ -1426,8 +1426,8 @@ private void scheduleTimeoutLocked(ToastRecord r, boolean immediate)
 |-------|-------
 | Bitmap.CompressFormat.JPEG | 表示以 JPEG 压缩算法进行图像压缩，压缩后的格式可以是 ``.jpg`` 或者 ``.jpeg``，是一种有损压缩 |
 | Bitmap.CompressFormat.PNG | 颜色信息由 rgba 四部分组成，每个部分都占 4 位，总共占 16 位 |
-| Bitmap.Config.ARGB_8888 | 颜色信息由 rgba 四部分组成，每个部分都占 8 位，总共占 32 位。是 Bitmap 默认的颜色配置信息，也是最占空间的一种配置
-| Bitmap.Config.RGB_565 | 颜色信息由 rgb 三部分组成，R 占 5 位，G 占 6 位，B 占 5 位，总共占 16 位
+| Bitmap.CompressFormat.WEBP_LOSSLESS | WebP 无损压缩方式
+| Bitmap.CompressFormat.WEBP_LOSSY | WebP 有损压缩方式
 
 ## 常用操作
 ### 裁剪、缩放、旋转、移动
